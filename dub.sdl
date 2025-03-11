@@ -1,0 +1,18 @@
+name "versioned"
+description "Handle versions with no efforts"
+authors "Dmytro Katyukha"
+copyright "Copyright © 2025, Dmytro Katyukha"
+license "MPL-2.0"
+
+targetPath "./build/"
+targetType "library"
+
+configuration "library" {
+}
+
+configuration "sourceLibrary" {
+}
+
+configuration "unittest" {
+    dependency "unit-threaded:assertions" version="*"
+}

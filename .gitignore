@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/versioned
+versioned.so
+versioned.dylib
+versioned.dll
+versioned.a
+versioned.lib
+versioned-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+*.sw[nop]
